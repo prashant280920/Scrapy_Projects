@@ -25,7 +25,7 @@ Using Scrapy a Python framework that give all tools you need to efficiently extr
    ```bash
    pip install -r requirements.txt
    ```
-6. Now move to any project directory - `cd <Project Directory>`. For example `cd shop`.
+6. Now move to any project directory - `cd <Project Directory>`. For example `cd shop`. However, right now there is only one Project - shop
 7. Now to webcrawl the website find the NAME_OF_SPIDER from the python file in the spiders directory. In **shop** project NAME_OF_SPIDER = `shop_shorts` from the shop_shorts.py in the spiders directory.
     ```bash
     scrapy crawl NAME_OF_SPIDER
